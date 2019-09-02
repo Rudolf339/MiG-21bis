@@ -1,0 +1,111 @@
+Aircraft readiness check pt.1
+	Cabin heat selector	 -- 	AUTO
+	Engine Start-Cold cranking	 -- 	ON
+	2-PSN Nozzle EMRG. CTL.	 -- 	OFF
+	BLC	 -- 	ON
+	Preset ALT. switch	 -- 	AS REQUIRED
+	Cone mode of operation	 -- 	AUTO
+	Drag chute JETT.	 -- 	CLOSED
+	Anti skid unit	 -- 	ON
+	Air relight	 -- 	OFF
+	Full throttle	 -- 	ON
+	Reheat	 -- 	ON
+	Engine starting unit	 -- 	ON
+	FIRE-FTG EQPT	 -- 	ON
+	Throttle lever	 -- 	SHUT-OFF
+	TAXI/LDG lamp	 -- 	RETR.
+	GYRO/MSL switch	 -- 	MSL
+	NAVIG/LETDOWN./LDG. switch	 -- 	NAVIG
+	OUTER/INNER beacon selector	 -- 	OUTER
+	Nosewheel break	 -- 	OFF
+	Clock	 -- 	CHECK
+	Tactical RLS	 -- 	OFF
+	Gun switch	 -- 	OFF
+	MSL, RGM, RKT LCH circuit breaker	 -- 	OFF
+	P-S Tube	 -- 	MAIN
+	OFF/STANDBY/RUN ON switch	 -- 	OFF
+	FIXED BEAM/OFF switch	 -- 	OFF
+	OFF/H SIGNAL/LOW ALT switch	 -- 	OFF
+	Limit altitude selector switch	 -- 	OFF
+	ANT./COMP. switch	 -- 	COMP.
+Aircraft readiness check pt.2
+	RDR ILL. WARN. SET. switch	 -- 	RDR ILL. WARN. SET. position
+	Distress switch	 -- 	OFF
+	IFF DEST. button	 -- 	OFF
+	Primary communication channel	 -- 	SELECTED
+	R/SET/COMP switch	 -- 	R/SET
+	CONE/OFF	 -- 	CONE
+	N. SUP.	 -- 	ON
+Before Engine Start
+	Altimeter	 -- 	SET TO QFE
+	Fuel gauge (no external stores)	 -- 	SET TO 2750L
+	Fuel gauge (490-L ventral drop tank)	 -- 	SET TO 3250L
+	Fuel gauge (800-L ventral drop tank)	 -- 	SET TO 3500L
+	Fuel gauge (two wing drop tanks)	 -- 	SET TO 3750L
+	Fuel gauge (three 490-L drop tanks)	 -- 	SET TO 4200L
+	BAT, EXT. PWR SUP.	 -- 	ON
+	VERT. GYRO of FDS, AFCS, RDR, QYRO HOR. SIG. circuit breaker	 -- 	ON
+	FDS circuit breaker	 -- 	ON
+	Magnetic declination setting	 -- 	SET LATITUDE
+	FDS button	 -- 	HOLD FOR 5 SECONDS
+	Voltage in aircraft mains	 -- 	CHECK
+	ATC IDENT.	 -- 	HOLD FOR 1 SECOND
+Engine start
+	DC GEN	 -- 	ON
+	Service TK pump	 -- 	ON
+	Throttle lever	 -- 	IDLE
+	Ground starting button	 -- 	HOLD FOR 3-4 SECONDS
+	AC GEN., EXT. PWR	 -- 	ON
+	3 TK GP PUMP	 -- 	ON
+	1 TK GP PUMP	 -- 	ON
+	RDR ILL. WARN. SET	 -- 	ON
+	Recorder	 -- 	ON
+	TRIM.	 -- 	ON
+	ARC	 -- 	ON
+	RAD	 -- 	ON
+	ALT MKR REC	 -- 	ON
+	FDS	 -- 	ON
+	GYRO HOR	 -- 	ON
+	CP30 IFF	 -- 	ON
+Taxi
+	Canopy	 -- 	SEALED
+	Nosewheel brake	 -- 	OFF
+	Flaps	 -- 	SET
+	Flight navigational instruments	 -- 	CHECK
+Takeoff
+	Takeoff (no external load or two missiles)	 -- 	FULL THROTTLE NON-REHEAT POWER
+	150-200km/h	 -- 	SHIFT CONTROL STICK 3/4 BACK
+	250-270km/h	 -- 	REDUCE CONTROL STICK BACKWARD DEFLECTION
+	340-360km/h	 -- 	TAKEOFF
+Climb
+	Landing gear pin	 -- 	OPEN
+	Landing gear lever	 -- 	UP
+	Landing gear lever	 -- 	NEUTRAL
+	Landing gear pin	 -- 	CLOSED
+	Flaps	 -- 	UP
+Landing
+	Flaps	 -- 	SET FOR LANDING
+	Gear lever	 -- 	DOWN
+	Gear lever	 -- 	NEUTRAL
+	Landing chute	 -- 	DEPLOY AFTER TOUCHDOWN
+Air to Air situation
+	AIR/GND switch	 -- 	AIR
+	IR/SAR switch	 -- 	IR (for IR missiles)
+	IR/SAR switch	 -- 	SAR (for R-27R1 missiles)
+	Armament selector	 -- 	IR-SAR
+	Gunsight	 -- 	ON
+	GYRO/MSL knob	 -- 	GYRO
+	GUN/LNC switch	 -- 	LNC
+	Target size	 -- 	SET TO TARGET WINGSPAN
+	SHOOT/BOMB switch	 -- 	SHOOT
+	Radar	 -- 	RUN ON
+Air to Ground situation
+	AIR/GND switch	 -- 	GND
+	IR/SAR switch	 -- 	NEUTRAL
+	Armament selector	 -- 	B RKT (for bombs and rocket pods)
+	Armament selector	 -- 	S-24 RKT (for S-24 rockets)
+	Gunsight	 -- 	ON
+	GYRO/MSL knob	 -- 	MSL
+	Fixed net	 -- 	ON
+	Target size	 -- 	SET TO TARGET SIZE
+	SHOOT/BOMB switch	 -- 	BOMB (only when using bombs)
