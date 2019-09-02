@@ -1,0 +1,153 @@
+----- MiG-21bis Weapons -----
+
+The MiG-21 comes with a wide array of weapon options
+
+External tanks:
+	490l (pylons 3, 4 and center)
+	800l (center pylon only)
+
+	Note: The MiG doesn't have a massive range,
+		you'll probably need ext. tanks for every mission
+
+Bombs:
+	FAB-100/100x4/250/500:
+		all wing pylons
+		numbers represent the mass in kg
+		dumb freefall irons
+		for aiming use the included .csv file to set the pipper depression angle
+		
+		Weapon selector needs to be in B RKT at the appropriate pylons
+		When pressing armament release,
+			a single bomb will be dropped from each of the selected pylons
+		
+	RN-28:
+		center pylon
+		nuclear free fall bomb
+		not implemented, (intentionally) it's just dead weight
+
+Rockets:
+	UB-16 (all wing pylons)
+	UB-32 (pylons 1 and 2)
+		16/32 55 mm unguided rocket per pod
+		pylon selector must be in B RKT
+		numbers represent the amount of rockets to salvo fire from each wing
+	
+	S-24 (all wing pylons)
+		Big unguided rockets
+		pylon selector to S-24 with the appropriate pylons
+		rockets from both of the selected pylons willé be salvo launched when pressing weapons release
+
+Guided A/G missiles:
+	Kh-66 "Grom" (All wing pylons):
+		Beam riding missile
+		hard to aim, not the most practical but fun
+		Radar must bee on and in beam mode
+		Pylon selector needs to be in IR-SAR
+		position determins the priority pylon, but once it's fired you can fire a next one without changing to a new pylon
+
+	Kh-25MP (Pylons 1 and 2):
+		Anti-radiation missile
+		Pylon selector needs to be in S-24 1-2. You'll fire off one at a time
+		You don't lock the target, it's a maddog. You aim, shoot and it will track whatever it finds infront of itself
+
+A/A Missiles:
+	R-3S/R (All wing pylons)
+		short range AIM-9 knockoffs
+		S: Heat seeker
+		R: SARH
+
+	R-60 (All wing pylons)
+	R-60 2x (pylons 3, 4)
+		small, short range IR missiles
+		superior to R-3
+		Quite agile
+	
+	R-27R1/T1 (pylons 1, 2)
+		Medium range A/A missiles
+		R1: SARH
+		T1: IR
+
+	A/A missile engagement:
+		IR:
+			Weapon mode selectors to Air and IR	
+			Pylon selector to IR-SAR with the appropriate pylon
+			Manuver so that the target is ruffly in the center of the gunsight
+			When one of the 3 green lights directly to the right of the gunsight light up, the seeker has a target
+			Press weapon release and call FOX 2 on the radio
+
+		SARH:
+			Weapon selectors to Air and SAR
+			Radar on (description about radar below) and target locked
+			Pylon selector to IR-SAR with desired pylon
+			Press weapon release
+			Since it's a semi-active radar homing missile, the lock needs to be maintained until the missile hits
+
+Radar operation:
+	Radar control panel (forward part of right panel with 3 switches and lights)
+		Forward most switch:
+			Bottom: OFF
+			Middle: SBY
+			Top: ON
+		Middle: alt modes, not yet implemented
+		Aft: Beam mode on/off
+	Before switching the radar on, it must be in SBY to warm up for 2-3 min
+	The radar can also overheat.
+		~20 min when on
+		~2 hr in SBY
+	
+	The radar shows contacts in B-scan format
+	T means contact is below you
+	+ means contact is ruffly coaltitude with you
+	upside down T means contact is above you
+
+	Lockin a target:
+		Manuver so the target is within the vertical bars on the radar display
+		Move the lock bars over the target
+		Hit lock
+	
+	Once a target is locked, the display changes to azimuth elevation
+	Range is indicated by the triangles on the two scales coming out of the center to the left and right
+	
+Guns:
+	Set the target's wingspam on the gyro sight
+	referance the red window for 300 m mode, the knob for radar driven mode
+
+	300 m mode:
+		put the throttle drum (same as lock bars) to the aftmost position to enter 300 m mode
+		the pipper will show the point where the bullets will be when they are 300 m away from you
+		manuver so that the pipper is on the target
+		When the diamonds touch the wingtip, (if you have set the wingspam correctly) you are 300 m away and ready to fire
+	
+	Radar mode:
+		Lock the target
+		Pipper will represent the point where the bullet will be when at the target's distance
+
+	Unjamming:
+		Guns can get jammed. If it happens, press one of the unjamm buttons (Labeled 1, 2, 3 left of the gunsight)
+
+RWR:
+	It's nothing fancy.
+	Flashing light and tone indicates an aircraft being picked up
+	The 4 lights represent the ruff directions.
+	IMPORTANT: The quaters intersect each other
+		An aircraft can be indicated by multiple lights at once
+		More on this in the examples
+	
+	You can switch between day (yellow) and night (red)
+	Also included is a test switch in the middle.
+
+	Here are some examples:
+	X |
+	--+--
+	  |
+	means there's one or more aircrafts forward/right of you. faster the flashes, the closer. steady is lauch
+	Same for all directions
+
+	X | X
+	--+--
+	  |
+	There's two possibilities:
+		1) An aircraft directly at your 12
+		2) one or more aircrafts forward of you both to the left and to the right
+
+Hope this helps :D
