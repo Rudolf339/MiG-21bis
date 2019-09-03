@@ -12,3 +12,12 @@ Compressor stalls:
 	Recovery is easy:
 		Reduce speed
 		Pull back the throttle and wait for it to spool back up
+
+The fuel system cannot feed the engine under negative G load
+	The engine will shut down in:
+		~10 sec on mil
+		~5  sec with reheat
+	
+	to recover:
+		Stabilise flight
+		Press and hold the starter button
