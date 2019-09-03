@@ -1,0 +1,40 @@
+Basic information about flying the MiG-21bis
+
+Takeoff:
+	flaps to takeoff
+
+	Add full Mil thrust
+	Count 4-5 elephants
+	Full a/b
+	
+	~150-200 km/h: 3/4 stick back
+	~250-270 km/h: ease up the stick
+	~340-360 km/h: takeoff
+
+	Note: Hold 10° of AoA. Else you'll suffer tailstrike
+
+	flaps up
+	Gears up
+	Once verified that gears have retracted, put the hangle back to neutral
+
+	Reheat is usually turned off at 600 km/h, unless you need to scramble to intercept
+
+Landing:
+	Approach with around 500 km/h
+	flaps to landing
+	gear down
+	once locked back to neutral
+
+	final approach ~350 km/h
+	once crossed the threshold idle the engine
+	touchdown at ~250 km/h
+	apply brakes and deploy dragchute
+
+	jettison the chute before fully stopped
+
+BFM:
+	Don't get in the yellow range of the AoA indicator
+	There's a high chance of getting into a spin
+
+	DON'T get in the read range of the AoA indicator
+	You'll probably die

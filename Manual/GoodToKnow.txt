@@ -1,0 +1,14 @@
+This file covers some of the important things not mentioned by the checklists
+
+Pinto's tutorial videos:
+	https://youtu.be/hvcvhX8-rR0
+	https://youtu.be/XzfE6ktn3Pg
+
+
+Compressor stalls:
+	If indicated airspeed exeeds 1300 km/h, you'r compressor will stall
+	You'll notice this from the shaking and the drop of n1 and n2
+
+	Recovery is easy:
+		Reduce speed
+		Pull back the throttle and wait for it to spool back up
