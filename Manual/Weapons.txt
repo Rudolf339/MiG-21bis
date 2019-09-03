@@ -1,6 +1,6 @@
 ----- MiG-21bis Weapons -----
 
-The MiG-21 comes with a wide array of weapon options
+The MiG-21 comes with a wide array of armament options
 
 External tanks:
 	490l (pylons 3, 4 and center)
@@ -35,7 +35,11 @@ Rockets:
 	S-24 (all wing pylons)
 		Big unguided rockets
 		pylon selector to S-24 with the appropriate pylons
-		rockets from both of the selected pylons willé be salvo launched when pressing weapons release
+		rockets from both of the selected pylons willé be salvo launched when pressing  release
+	
+	Note:
+		There's no speciall aid to aiming rockets,but you're probably best off with the fixed net.
+		Other than that use your Mk.1 eyeball and experiance
 
 Guided A/G missiles:
 	Kh-66 "Grom" (All wing pylons):
@@ -73,13 +77,13 @@ A/A Missiles:
 			Pylon selector to IR-SAR with the appropriate pylon
 			Manuver so that the target is ruffly in the center of the gunsight
 			When one of the 3 green lights directly to the right of the gunsight light up, the seeker has a target
-			Press weapon release and call FOX 2 on the radio
+			Press armament release and call FOX 2 on the radio
 
 		SARH:
 			Weapon selectors to Air and SAR
 			Radar on (description about radar below) and target locked
 			Pylon selector to IR-SAR with desired pylon
-			Press weapon release
+			Press armament release
 			Since it's a semi-active radar homing missile, the lock needs to be maintained until the missile hits
 
 Radar operation:
@@ -107,10 +111,14 @@ Radar operation:
 	
 	Once a target is locked, the display changes to azimuth elevation
 	Range is indicated by the triangles on the two scales coming out of the center to the left and right
+
+	IFF:
+		Click the button labeled IFF to toggle the interrogator
+		Atm not really realistic, radar will display the callsign of all contacts
 	
 Guns:
 	Set the target's wingspam on the gyro sight
-	referance the red window for 300 m mode, the knob for radar driven mode
+	referance the red window for 300 m mode, the knob for manual mode
 
 	300 m mode:
 		put the throttle drum (same as lock bars) to the aftmost position to enter 300 m mode
