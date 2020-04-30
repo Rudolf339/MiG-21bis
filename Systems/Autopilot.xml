@@ -179,6 +179,14 @@ check for Low Altitude Mode
                     <property>/autopilot/locks/low-alt-mode-armed</property>
                     <value>1</value>
                 </equals>
+		<greater-than>
+		    <property>/fdm/jsbsim/electric/output/afcs</property>
+		    <value>110</value>
+		</greater-than>
+		<greater-than>
+		    <property>/fdm/jsbsim/electric/output/afcs-pitch</property>
+		    <value>110</value>
+		</greater-than>
             </condition>
             <binding>
             </binding>
@@ -266,6 +274,14 @@ check for Low Altitude Mode
                         <property>/fdm/jsbsim/fcs/rudder-cmd-norm</property>
                         <value>-0.3</value>
                     </less-than>
+		    <less-than>
+			<property>/fdm/jsbsim/electric/output/afcs</property>
+			<value>110</value>
+		    </less-than>
+		    <less-than>
+			<property>/fdm/jsbsim/electric/output/afcs-pitch</property>
+			<value>110</value>
+		    </less-than>
                 </or>
             </condition>
             <binding>
@@ -283,6 +299,14 @@ check for Low Altitude Mode
                     <property>/autopilot/locks/mode</property>
                     <value>1</value>
                 </greater-than>
+		<less-than>
+		    <property>/fdm/jsbsim/electric/output/afcs</property>
+		    <value>110</value>
+		</less-than>
+		<less-than>
+		    <property>/fdm/jsbsim/electric/output/afcs-pitch</property>
+		    <value>110</value>
+		</less-than>		
             </condition>
             <binding>
             </binding>
